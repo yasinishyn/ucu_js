@@ -1,4 +1,3 @@
-
 const pets = {
     markus: {
         species: 'Fat Cat',
@@ -10,4 +9,3 @@ const pets = {
     }
 }
 console.log(pets.markus.age)
-
