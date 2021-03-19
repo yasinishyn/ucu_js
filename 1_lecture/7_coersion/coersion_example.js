@@ -1,0 +1,17 @@
+console.log("true + false", ".........is", true + false);
+console.log('12 / "6"', ".............is", 12 / "6");
+console.log('"number" + 15 + 3', "....is", "number" + 15 + 3);
+console.log('15 + 3 + "number"', "....is", 15 + 3 + "number");
+console.log("[1] > null", "...........is", [1] > null);
+console.log('"foo" + + "bar"', "......is", "foo" + + "bar");
+console.log("'true' == true", ".......is", 'true' == true);
+console.log("false == 'false'", ".....is", false == 'false');
+console.log("null == ''", "...........is", null == '');
+console.log('!!"false" == !!"true"', "is", !!"false" == !!"true");
+console.log("[`x`] == `x`", ".........is", [`x`] == `x`);
+console.log("[] + null + 1", "........is", [] + null + 1);
+console.log("[1,2,3] == [1,2,3]", "...is", [1,2,3] == [1,2,3]);
+console.log("{}+[]+{}+[1]", ".........is", {}+[]+{}+[1]);
+console.log("!+[]+[]+![]", "..........is", !+[]+[]+![]);
+console.log("new Date(0) - 0", "......is", new Date(0) - 0);
+console.log("new Date(0) + 0", "......is", new Date(0) + 0);

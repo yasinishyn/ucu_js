@@ -1,6 +1,11 @@
-function hello(myName) {
-    console.log(`Hello, ${ myName }.`);
+var adult = true;
+
+if (adult) {
+    var myName = "Kyle";
+    let age = 39;
+    console.log("Shhh, this is a secret!");
 }
 
-hello("Kyle");
-// Hello, Kyle.
+console.log(myName); // Kyle
+
+console.log(age); // Error!
