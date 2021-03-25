@@ -9,3 +9,5 @@ if (adult) {
 console.log(myName); // Kyle
 
 console.log(age); // Error!
+
+
